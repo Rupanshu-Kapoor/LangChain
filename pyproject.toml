@@ -28,6 +28,7 @@ langchain-huggingface = "^0.0.3"
 langserve = "^0.2.2"
 fastapi = "^0.111.0"
 uvicorn = "^0.30.1"
+sse-starlette = "^2.1.2"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md

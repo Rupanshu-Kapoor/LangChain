@@ -1,0 +1,8 @@
+langchian-huggingface
+langchain_core
+langchain_community
+python-dotenv
+streamlit
+langserve
+fastapi
+uvicorn

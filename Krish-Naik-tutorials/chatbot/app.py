@@ -34,7 +34,7 @@ repo_id = repo_id = "mistralai/Mistral-7B-Instruct-v0.2"
 hf_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
 
-hf_llm = HuggingFaceEndpoint(repo_id=repo_id, max_lenght=128, temperature=0.7, token=2)
+hf_llm = HuggingFaceEndpoint(repo_id=repo_id, max_lenght=128, temperature=0.7, token=hf_token)
 output_parser = StrOutputParser()
 chain = prompt|hf_llm|output_parser
 
